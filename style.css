@@ -1,0 +1,19 @@
+body {
+    background: #aaa;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin-left: 250px;
+    text-align: center;
+    color: crimson;
+    transition: 1.3s ease-in-out;
+    
+}
+h1:hover {
+    text-decoration: underline;
+    transition: 0.7s ease-in-out;
+    box-shadow: 10px 5px 5px black;
+}
